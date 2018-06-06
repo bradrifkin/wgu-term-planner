@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.rifkinc196finalproject">
+
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name="com.example.rifkinc196finalproject.MainActivity"
+            android:label="@string/title_activity_main"
+            android:launchMode="singleTop"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.example.rifkinc196finalproject.TermListActivity"
+            android:label="@string/term_list"
+            android:launchMode="singleTop"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.rifkinc196finalproject.MainActivity" />
+        </activity>
+
+        <activity
+            android:name="com.example.rifkinc196finalproject.TermViewerActivity"
+            android:label="@string/title_activity_term_viewer"
+            android:launchMode="singleTop"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.rifkinc196finalproject.TermListActivity" />
+        </activity>
+
+        <activity
+            android:name="com.example.rifkinc196finalproject.TermEditorActivity"
+            android:label="@string/title_activity_term_editor"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.rifkinc196finalproject.TermViewerActivity" />
+        </activity>
+
+        <activity
+            android:name="com.example.rifkinc196finalproject.CourseListActivity"
+            android:label="Course List"
+            android:launchMode="singleTop"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.rifkinc196finalproject.TermViewerActivity" />
+        </activity>
+
+        <activity
+            android:name="com.example.rifkinc196finalproject.CourseViewerActivity"
+            android:label="@string/title_activity_course_viewer"
+            android:launchMode="singleTop"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.rifkinc196finalproject.CourseListActivity" />
+        </activity>
+
+        <activity
+            android:name="com.example.rifkinc196finalproject.CourseEditorActivity"
+            android:label="@string/title_activity_course_editor"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.rifkinc196finalproject.CourseViewerActivity" />
+        </activity>
+
+        <activity
+            android:name="com.example.rifkinc196finalproject.CourseNoteListActivity"
+            android:label="@string/title_activity_course_note_list"
+            android:launchMode="singleTop"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.rifkinc196finalproject.CourseViewerActivity" />
+        </activity>
+
+        <activity
+            android:name="com.example.rifkinc196finalproject.AssessmentListActivity"
+            android:label="@string/title_activity_assessment_list"
+            android:launchMode="singleTop"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.rifkinc196finalproject.CourseViewerActivity" />
+        </activity>
+
+        <activity
+            android:name="com.example.rifkinc196finalproject.AssessmentViewerActivity"
+            android:label="@string/title_activity_assessment_viewer"
+            android:launchMode="singleTop"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.rifkinc196finalproject.AssessmentListActivity" />
+        </activity>
+
+        <activity
+            android:name="com.example.rifkinc196finalproject.CourseNoteViewerActivity"
+            android:label="@string/title_activity_course_note_viewer"
+            android:launchMode="singleTop"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.rifkinc196finalproject.CourseNoteListActivity" />
+        </activity>
+
+        <activity
+            android:name="com.example.rifkinc196finalproject.AssessmentNoteListActivity"
+            android:label="@string/title_activity_assessment_note_list"
+            android:launchMode="singleTop"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.rifkinc196finalproject.AssessmentViewerActivity" />
+        </activity>
+
+        <activity
+            android:name="com.example.rifkinc196finalproject.AssessmentNoteViewerActivity"
+            android:label="@string/title_activity_assessment_note_viewer"
+            android:launchMode="singleTop"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.rifkinc196finalproject.AssessmentNoteListActivity" />
+        </activity>
+
+        <activity
+            android:name="com.example.rifkinc196finalproject.AssessmentEditorActivity"
+            android:label="@string/title_activity_assessment_editor"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.rifkinc196finalproject.AssessmentViewerActivity" />
+        </activity>
+
+        <activity
+            android:name="com.example.rifkinc196finalproject.CourseNoteEditorActivity"
+            android:label="@string/title_activity_course_note_editor"
+            android:parentActivityName="com.example.rifkinc196finalproject.CourseNoteListActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.rifkinc196finalproject.CourseNoteListActivity" />
+        </activity>
+
+        <activity
+            android:name="com.example.rifkinc196finalproject.AssessmentNoteEditorActivity"
+            android:label="@string/title_activity_assessment_note_editor"
+            android:parentActivityName="com.example.rifkinc196finalproject.AssessmentNoteListActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.rifkinc196finalproject.AssessmentNoteListActivity" />
+        </activity>
+
+        <activity
+            android:name="com.example.rifkinc196finalproject.CameraActivity"
+            android:label="@string/title_activity_camera"
+            android:launchMode="singleTop"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name="com.example.rifkinc196finalproject.ImageListActivity"
+            android:label="@string/title_activity_image_list"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+        <provider
+            android:name="com.example.rifkinc196finalproject.DataProvider"
+            android:authorities="com.example.rifkinc196finalproject.dataprovider"
+            android:exported="false" />
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.example.rifkinc196finalproject.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths"/>
+        </provider>
+
+        <receiver android:name="com.example.rifkinc196finalproject.AlarmHandler" />
+
+    </application>
+
+</manifest>

@@ -1,0 +1,102 @@
+<resources>
+
+    <string name="app_name">WGU Planner</string>
+    <string name="title_activity_main">My WGU Term Planner</string>
+    <string name="create_sample_data">Add Test Data</string>
+    <string name="create_test_alarm">Add Test Alarm</string>
+    <string name="delete_all_data">Delete All Data</string>
+    <string name="are_you_sure">Are you sure you want to delete all data?</string>
+    <string name="course_deleted">Course was successfully deleted.</string>
+    <string name="confirm_delete_course">Are you sure you want to delete this course, including corresponding notes and assessments?</string>
+    <string name="add_test_data">Test data added.</string>
+    <string name="all_deleted">All data deleted.</string>
+    <string name="term_deleted">Term was deleted.</string>
+    <string name="delete_term_confirm">Are you sure you want to delete this term?</string>
+    <string name="term_saved">Term was created successfully.</string>
+    <string name="confirm_delete_note">Are you sure you want to delete this note?</string>
+    <string name="confirm_delete_assessment">Are you sure you want to delete this assessment?</string>
+    <string name="note_deleted">Note was deleted.</string>
+    <string name="assessment_deleted">Assessment was deleted.</string>
+    <string name="title_activity_term_editor">Term Editor</string>
+    <string name="view_classes_in_term">View Classes in Term</string>
+    <string name="view_class_notes">View Class Notes</string>
+    <string name="view_class_assessments">View Class Assessments</string>
+    <string name="view_assessment_notes">View Assessment Notes</string>
+    <string name="term_name">Term Name</string>
+    <string name="start_date">Start Date</string>
+    <string name="end_date">End Date</string>
+    <string name="save_term">Save Term</string>
+    <string name="add_new_term">Add New Term</string>
+    <string name="term_updated">Term was updated.</string>
+    <string name="title_activity_term_viewer">Term Viewer</string>
+    <string name="edit_term">Edit Term</string>
+    <string name="delete_term">Delete Term</string>
+    <string name="too_many_courses">This term cannot be deleted as courses are already assigned.</string>
+    <string name="title_activity_course_editor">Course Editor</string>
+    <string name="course_name">Course Name</string>
+    <string name="course_start">Course Start</string>
+    <string name="course_end">Course End</string>
+    <string name="save_course">Save Course</string>
+    <string name="course_mentor">Course Mentor</string>
+    <string name="course_mentor_phone">Course Mentor Phone</string>
+    <string name="course_mentor_email">Course Mentor Email</string>
+    <string name="add_new_course">Add New Course</string>
+    <string name="classes">Classes</string>
+    <string name="title_activity_course_viewer">View Course</string>
+    <string name="notes">Notes</string>
+    <string name="title_activity_course_note_list">Course Notes</string>
+    <string name="title_activity_assessment_list">Assessments</string>
+    <string name="title_activity_assessment_viewer">View Assessment</string>
+    <string name="title_activity_course_note_viewer">Course Note Viewer Activity</string>
+    <string name="title_activity_assessment_note_list">Assessment Notes</string>
+    <string name="title_activity_assessment_note_viewer">View Assessment Note</string>
+    <string name="title_activity_assessment_editor">Edit Assessment</string>
+    <string name="term_list">Term List</string>
+    <string name="title_activity_course_note_editor">Edit Course Note</string>
+    <string name="note_title">Enter Note Title...</string>
+    <string name="note_text_hint">Enter your note text here...</string>
+    <string name="save_note">Save Note</string>
+    <string name="save_assessment">Save Assessment</string>
+    <string name="edit_assessment">Edit Assessment</string>
+    <string name="new_assessment">New Assessment</string>
+    <string name="title_activity_assessment_note_editor">Edit Assessment Note</string>
+    <string name="delete_course">Delete Course</string>
+    <string name="delete_assessment">Delete Assessment</string>
+    <string name="delete_note">Delete Note</string>
+    <string name="enable_notifications">Enable Notifications</string>
+    <string name="disable_notifications">Disable Notifications</string>
+    <string name="progress_tracker">Progress Tracker</string>
+    <string name="degree_progress">Degree Progress</string>
+    <string name="completed_courses">Completed Courses: </string>
+    <string name="completed_terms">Completed Terms: </string>
+    <string name="current_term_progress">Current Term Progress</string>
+    <string name="drop_course">Drop Course</string>
+    <string name="mark_course_completed">Mark Course Completed</string>
+    <string name="start_course">Start Course</string>
+    <string name="title_activity_camera">Camera Activity</string>
+    <string name="add_photo_from_camera">Add Photo from Camera</string>
+    <string name="add_image">Add Note Image</string>
+    <string name="title_activity_image_list">Images</string>
+    <string name="edit_note">Edit Note</string>
+    <string name="view_images">View Note Images</string>
+    <string name="share">Share...</string>
+    <string name="mark_term_active">Mark Term as Active</string>
+    <string name="term_marked_active">Term marked as active.</string>
+    <string name="edit_course">Edit Course</string>
+
+    <string name="long_test_note">
+        Getting Started\n\n
+        Welcome to Software I! Your competence in this course is assessed through one performance assessment, an original inventory management program you will develop in Java. You will complete your learning in the uCertify platform. This includes readings, videos, and interactive activities. The flashcards and practice tests within uCertify will help you prepare for the Oracle Certified Associate Java SE 8 Programmer exam, if you choose to pursue this additional certification at your own expense. Use uCertify’s Study Planner to pace your progress through the learning materials within 10 weeks, then focus on finishing your performance assessment.\n\n
+        Classes and Interfaces\n\n
+        The graduate designs software solutions with appropriate classes, objects, methods, and interfaces to achieve specific goals.\n\n
+        Object-Oriented Principles\n\n
+        The graduate implements object-oriented design principles (e.g., inheritance, encapsulation, and abstraction) in developing applications for ensuring the application’s scalability.\n\n
+        Application Development\n\n
+        The graduate produces applications using high-level programming language constructs to meet business requirements.\n\n
+        Exception Handling\n\n
+        The graduate incorporates simple exception handling in application development for improving user experience and application stability.\n\n
+        User Interface Development\n\n
+        The graduate develops user interfaces to meet project requirements.
+    </string>
+
+</resources>
